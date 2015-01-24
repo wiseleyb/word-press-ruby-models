@@ -1,0 +1,10 @@
+default: &default
+  adapter: mysql2
+  username: username
+  password: password
+  port: 3306
+  host: 1.1.1.1
+
+development:
+  <<: *default
+  database: wpdb
